@@ -15,27 +15,57 @@ body {
     margin: 30px auto;
     background: #f1ece5;
     box-shadow:8px 8px 8px rgb(58, 57, 57);
-    border-radius: 20px;
-    
+    border-radius: 20px;   
+}
+
+section{
+    margin: 10px 0;
+}
+
+.button-cadastro {
+    margin-bottom: 5em;
+    padding: 5px 10px;
+    border: nome;
+}
+
+.button-cadastro a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-agendamento {
+    margin-bottom: 5em;
+    padding: 5px 10px;
+    border: nome;
+}
+
+.button-agendamento a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-agenda {
+    margin-bottom: 5em;
+    padding: 5px 10px;
+    border: nome;
+}
+
+.button-agenda a {
+    text-decoration: none;
+    color: white;
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
-    row-gap: 10px;
-    column-gap: 30px;
-    margin-top: 5em;
-    margin-left: -4em;
+    margin-top: 4em;
+    margin-left: -5em;
+    margin-bottom: 2em;
     text-decoration: none;
     position: absolute;
     border: none;
     font-size: 15px;
     font-family: inherit;
     color: #fff;
-    width: 9em;
+    width: 12em;
     height: 3em;
     line-height: 2em;
     text-align: center;
