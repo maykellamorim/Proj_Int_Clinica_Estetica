@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     width: 100%;
     right: 100%;
     left: 100%;
@@ -7,65 +8,60 @@ body {
     background-repeat: no-repeat;
     font-size: 15px;
     font-family: Lato, sans-serif;
+    color: #7e653d;
 }
 
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+
 #container {
-    height: 500px;
-    width: 380px;
+    height: 550px;
+    width: 80%;
     margin: 30px auto;
     background: #f1ece5;
     box-shadow:8px 8px 8px #9d7e4c;
-    border-radius: 20px;   
+    border-radius: 20px;
+    padding: 1em;   
 }
 
-section{
-    margin: 10px 0;
+fieldset {
+    border: 0;
 }
 
-.button-cadastro {
-    margin-bottom: 5em;
-    padding: 5px 10px;
-    border: nome;
+input, select, textarea, button{
+    border-radius: 5px;
 }
 
-.button-cadastro a {
-    text-decoration: none;
-    color: white;
+.campo {
+    margin-bottom: 1em;
 }
 
-.button-agendamento {
-    margin-bottom: 5em;
-    border: nome;
+fieldset.grupo.campo {
+    float: left;
+    margin-right: 1em;
 }
 
-.button-agendamento a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
+.camposelectoption{
+    padding-right: 1em;
 }
 
-.button-agenda {
-    margin-bottom: 5em;
-    padding: 5px 10px;
-    border: nome;
-}
-
-.button-agenda a {
-    text-decoration: none;
-    color: white;
+.campoinput:focus, .camposelect:focus, .campotextarea:focus {
+    background: #bababe;
 }
 
 button {
-    margin-top: 4em;
-    margin-left: -5em;
-    margin-bottom: 2em;
+    margin-top: 5em;
+    margin-left: 60em;
     text-decoration: none;
     position: absolute;
     border: none;
     font-size: 15px;
     font-family: inherit;
     color: #fff;
-    width: 12em;
+    width: 9em;
     height: 3em;
     line-height: 2em;
     text-align: center;
@@ -73,14 +69,14 @@ button {
     background-size: 300%;
     border-radius: 20px;
     z-index: 1;
-   }
+}
    
-   button:hover {
+button:hover {
     animation: ani 8s linear infinite;
     border: none;
-   }
+}
    
-   @keyframes ani {
+@keyframes ani {
     0% {
      background-position: 0%;
     }
@@ -88,9 +84,9 @@ button {
     100% {
      background-position: 400%;
     }
-   }
+}
    
-   button:before {
+button:before {
     content: '';
     position: absolute;
     top: -5px;
@@ -102,13 +98,19 @@ button {
     background-size: 400%;
     border-radius: 35px;
     transition: 1s;
-   }
+}
    
-   button:hover::before {
+button:hover::before {
     filter: blur(20px);
-   }
+}
    
-   button:active {
+button:active {
     background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
-   }
+}
+
+#check {
+    display: inline-block;
+}
+
+
 
