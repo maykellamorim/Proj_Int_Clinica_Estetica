@@ -1,9 +1,11 @@
 body {
+    margin: 0;
+    padding: 5vh;
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-size: 15px;
     font-family: Lato, sans-serif;
@@ -14,7 +16,7 @@ body {
     width: 380px;
     margin: 30px auto;
     background: #f1ece5;
-    box-shadow:8px 8px 8px rgb(58, 57, 57);
+    box-shadow:8px 8px 8px #9d7e4c;
     border-radius: 20px;   
 }
 
@@ -35,11 +37,11 @@ section{
 
 .button-agendamento {
     margin-bottom: 5em;
-    padding: 5px 10px;
     border: nome;
 }
 
 .button-agendamento a {
+    display: inline-block;
     text-decoration: none;
     color: white;
 }

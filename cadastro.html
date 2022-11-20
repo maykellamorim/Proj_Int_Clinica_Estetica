@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Clínica Estética Reviver - Cadastro</title>
+</head>
+<body>
+    <div id="main-container">
+        
+        <img src="img/logocliente.png" class="logo" width="50%"> 
+        <form id="register-form">
+            <div class="half-box" spacing>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o primeiro nome" required>
+            </div>
+    
+            <div class="half-box" spacing>
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="Sobrenome" id="sobrenome" placeholder="Digite o Sobrenome" required>
+            </div>
+
+            <div class="full-box" spacing>
+                <label for="endereco"><strong>Endereço</strong></label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço com número" required>
+            </div>
+
+            <div class="third-box" spacing>
+                <label for="bairro"><strong>Bairro</strong></label>
+                <input type="text" name="bairro" id="bairro" placeholder="Digite o Bairro" required>
+            </div>
+
+            <div class="third-box" spacing>
+                <label for="cidade"><strong>Cidade</strong></label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite a Cidade" required>
+            </div>
+
+            <div class="third-box" spacing>
+                <label for="cep"><strong>CEP</strong></label>
+                <input type="text" name="cep" id="cep" placeholder="Digite o cep da cidade" required>
+            </div>
+
+            <div class="third-box" id="estado" spacing>
+                <label for="estado"><strong>Estado</strong></label>
+                <select name="estados-brasil">
+                    <option value="none">Selecionar</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+
+            <div class="third-box" spacing>
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Digite o e-mail" required>
+            </div>
+
+            <div class="third-box" spacing>
+                <label for="dataNasc"><strong>Data de Nascimento</strong></label>
+                <input type="date" name="dataNasc" id="dataNasc" required>
+            </div>
+
+            <div class="third-box">
+                <label for="cpf"><strong>CPF</strong></label>
+                <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+            </div>           
+           
+            <div class="half-box">
+                <label for="senioridade"><strong>Est. Civil</strong></label>
+                <select id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Solteiro</option>
+                    <option>Casado</option>
+                    <option>Divorciado</option>
+                    <option>Viúvo</option>              
+                </select>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="flex-container">
+                <button type="submit">Concluído</button>
+                <button type="submit">Menu</button>
+            </div>
+        </form>
+   
+    </div>
+    <p class="error-validation template"></p>
+</body>
+</html>

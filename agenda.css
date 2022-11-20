@@ -1,52 +1,91 @@
 body {
     margin: 0;
     padding: 5vh;
+    box-sizing: border-box;
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 15px;
-    font-family: Lato, sans-serif;
-    color: #9d7e4c;
-}
-.logo{
-    padding-top: 3em;
 }
 
-.botão{
-    padding-right: 2em;
-}
-
-section{
-    margin: 1px 0;
-}
-
-.button-as-link {
-    padding: 5px 10px;
-    border: nome;
-}
-
-.button-as-link a {
-    text-decoration: none;
-    color: white;
-}
-
-#container {
-    height: 500px;
-    width: 380px;
-    margin: 30px auto;
+#main-container {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
     background: #f1ece5;
-    box-shadow:2px 2px 2px 2px #9d7e4c;
-    box-shadow:8px 8px 8px ;
+    box-shadow:8px 8px 8px #9d7e4c;
     border-radius: 20px;
-    justify-content: center;
+    padding: 25px; 
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    color: #7e653d;  
+}
+
+input, label {
+    border: 0;
+    display: block;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #7e653d;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box, .half-box, .third-box {
+    padding: 1.5%;
+}
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.third-box{
+    flex: 1 1 30%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;    
+}
+
+label{  
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;;
+    margin-bottom: -8px;
+}
+
+#estado{
+    font-size: 50pix;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 button {
-    margin-top: 5em;
-    margin-left: -4em;
+    margin-top: 3em;
+    margin-left: -20em;
     text-decoration: none;
     position: absolute;
     border: none;
@@ -100,5 +139,6 @@ button:active {
     background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
 }
 
-
- 
+#check {
+    display: inline-block;
+}
