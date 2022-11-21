@@ -44,7 +44,7 @@
 
             <div class="third-box" id="estado" spacing>
                 <label for="estado"><strong>Estado</strong></label>
-                <select name="estados-brasil">
+                <select name="estados-brasil"  style="width:376px">
                     <option value="none">Selecionar</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
@@ -87,13 +87,13 @@
             </div>
 
             <div class="third-box">
-                <label for="cpf"><strong>CPF</strong></label>
+                <label for="cpf" style="width: 200px"><strong>CPF</strong></label>
                 <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
             </div>           
            
-            <div class="half-box">
-                <label for="senioridade"><strong>Est. Civil</strong></label>
-                <select id="senioridade">
+            <div class="third-box">
+                <label for="estado-civil"><strong>Est. Civil</strong></label>
+                <select id="estado-civil" style="width:352px">
                     <option selected disabled value="">Selecione</option>
                     <option>Solteiro</option>
                     <option>Casado</option>
@@ -104,9 +104,15 @@
             <br>
             <br>
             <br>
-            <div class="flex-container">
-                <button type="submit">Concluído</button>
-                <button type="submit">Menu</button>
+            <div class="third-box">
+                <div class="flex-container">
+                    <div>
+                        <button type="submit" id="botao-concluir">Concluído</button>
+                    </div>
+                    <div>
+                        <button type="submit" id="botao-menu">Menu</button>
+                    </div>
+                </div>
             </div>
         </form>
    
