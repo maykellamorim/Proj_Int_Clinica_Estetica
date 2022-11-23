@@ -44,7 +44,7 @@
 
             <div class="third-box" id="estado" spacing>
                 <label for="estado"><strong>Estado</strong></label>
-                <select name="estados-brasil"  style="width:376px">
+                <select name="estados-brasil" >
                     <option value="none">Selecionar</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
@@ -82,18 +82,23 @@
             </div>
 
             <div class="third-box" spacing>
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <div class="third-box" spacing>
                 <label for="dataNasc"><strong>Data de Nascimento</strong></label>
                 <input type="date" name="dataNasc" id="dataNasc" required>
             </div>
 
             <div class="third-box">
-                <label for="cpf" style="width: 200px"><strong>CPF</strong></label>
+                <label for="cpf"><strong>CPF</strong></label>
                 <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
             </div>           
            
             <div class="third-box">
                 <label for="estado-civil"><strong>Est. Civil</strong></label>
-                <select id="estado-civil" style="width:352px">
+                <select id="estado-civil" >
                     <option selected disabled value="">Selecione</option>
                     <option>Solteiro</option>
                     <option>Casado</option>
@@ -102,12 +107,10 @@
                 </select>
             </div>
             <br>
-            <br>
-            <br>
             <div class="third-box">
                 <div class="flex-container">
                     <div>
-                        <button type="submit" id="botao-concluir">Concluído</button>
+                        <button type="submit" id="botao-concluir">Cadastrar</button>
                     </div>
                     <div>
                         <button type="submit" id="botao-menu">Menu</button>

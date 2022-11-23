@@ -40,6 +40,11 @@ form {
     justify-content: space-between;
 }
 
+select{
+    width: 350px;
+    height: 45px;
+}
+
 .full-box, .half-box, .third-box {
     padding: 1.5%;
 }
@@ -83,13 +88,9 @@ input {
     justify-content: space-between;
 }
 
-#cpf{
-    padding-bottom: 15px;
-}
-
 #botao-concluir {
     margin-top: 3em;
-    margin-left: 15em;
+    margin-left: 52em;
     text-decoration: none;
     position: relative;
     border: none;
@@ -144,7 +145,7 @@ input {
 }
 #botao-menu {
     margin-top: 3em;
-    margin-left: -21em;
+    margin-left: -10em;
     text-decoration: none;
     position: relative;
     border: none;

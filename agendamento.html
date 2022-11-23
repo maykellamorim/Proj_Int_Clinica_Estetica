@@ -8,12 +8,64 @@
     <title>Clínica Estética Reviver - Agendamento</title>
 </head>
 <body>
-    <div id="container">
+    <div id="main-container">
         
-        <div>
+        <div class="full-box" spacing>
             <br>
-            <img src="img/logoclinica.png" class="logo" width="15%">
+            <img src="img/logoagendamentopng.png" class="logo" width="50%">
     
+        </div>
+        <form id="agend-form">
+            <div class="half-box" spacing>
+                <div id="Esteticistas">
+                    <u><h2>Esteticista</h2></u>
+                    <input type="checkbox" id="esteticista1" name="esteticista1" value="esteticista1">
+                    <label for="esteticista1">Esteticista 1</label>
+                    <input type="checkbox" id="esteticista2" name="esteticista2" value="esteticista2">
+                    <label for="esteticista2">Esteticista 2</label>
+                    <input type="checkbox" id="esteticista3" name="esteticista3" value="esteticista3">
+                    <label for="esteticista3">Esteticista 3</label>
+                </div>
+                <div id="procedimentos">
+                    <u><h2>Procedimentos</h2></u>
+                    <input type="checkbox" id="procedimento1" name="procedimento1" value="procedimento1">
+                    <label for="procedimento1">Procedimento 1</label>
+                    <input type="checkbox" id="procedimento2" name="procedimento2" value="procedimento2">
+                    <label for="procedimento2">Procedimento 2</label>
+                    <input type="checkbox" id="procedimento3" name="procedimento3" value="procedimento3">
+                    <label for="procedimento3">Procedimento 3</label>
+                    <input type="checkbox" id="procedimento4" name="procedimento4" value="procedimento4">
+                    <label for="procedimento4">Procedimento 4</label>
+                    <input type="checkbox" id="procedimento5" name="procedimento5" value="procedimento5">
+                    <label for="procedimento5">Procedimento 5</label>
+                    <input type="checkbox" id="procedimento6" name="procedimento6" value="procedimento6">
+                    <label for="procedimento6">Procedimento 6</label>
+                </div>
+                <div id="form-pagamento">
+                    <u><h2>Forma de Pagamento</h2></u>
+                    <input type="checkbox" id="form-pag-1" name="form-pag-1" value="form-pag-1">
+                    <label for="form-pag-1">Cartão</label>
+                    <input type="checkbox" id="form-pag-2" name="form-pag-2" value="form-pag-2">
+                    <label for="form-pag-2">Dinheiro</label>
+                    <input type="checkbox" id="form-pag-3" name="form-pag-3" value="form-pag-3">
+                    <label for="form-pag-3">Pix</label>
+                    <input type="checkbox" id="form-pag-4" name="form-pag-4" value="form-pag-4">
+                    <label for="form-pag-4">Plano de saúde</label>
+                </div>
+            </div>
+        </form>
+        <div class="half-box" spacing>
+            <input type="datetime-local" id="datetime" style="width: 300px;">
+        </div>
+        <div class="half-box">
+            <div class="flex-container">
+                <div>
+                    <button type="submit" id="botao-concluir">Agendar</button>
+                </div>
+                <div>
+                    <button type="submit" id="botao-menu">Menu</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
