@@ -1,11 +1,15 @@
 body {
     margin: 0;
+<<<<<<< HEAD
     padding: 5vh;
     box-sizing: border-box;
+=======
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
+<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -197,3 +201,21 @@ input {
 
 
 
+=======
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container {
+    height: 550px;
+    width: 80%;
+    margin: 30px auto;
+    background: #f1ece5;
+    box-shadow:8px 8px 8px #9d7e4c;
+    border-radius: 20px;
+    padding: 1em;   
+}
+
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480

@@ -1,11 +1,15 @@
 body {
     margin: 0;
+<<<<<<< HEAD
     padding: 5vh;
     box-sizing: border-box;
+=======
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
+<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -93,6 +97,61 @@ input {
     margin-left: 52em;
     text-decoration: none;
     position: relative;
+=======
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    color: #7e653d;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+
+#container {
+    height: 550px;
+    width: 80%;
+    margin: 30px auto;
+    background: #f1ece5;
+    box-shadow:8px 8px 8px #9d7e4c;
+    border-radius: 20px;
+    padding: 1em;   
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+fieldset.grupo.campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.camposelectoption{
+    padding-right: 1em;
+}
+
+.campoinput:focus, .camposelect:focus, .campotextarea:focus {
+    background: #bababe;
+}
+
+button {
+    margin-top: 5em;
+    margin-left: 60em;
+    text-decoration: none;
+    position: absolute;
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
     border: none;
     font-size: 15px;
     font-family: inherit;
@@ -107,7 +166,11 @@ input {
     z-index: 1;
 }
    
+<<<<<<< HEAD
 #botao-concluir:hover {
+=======
+button:hover {
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
     animation: ani 8s linear infinite;
     border: none;
 }
@@ -122,9 +185,15 @@ input {
     }
 }
    
+<<<<<<< HEAD
 #botao-concluir:before {
     content: '';
     position: relative;
+=======
+button:before {
+    content: '';
+    position: absolute;
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
     top: -5px;
     left: -5px;
     right: -5px;
@@ -136,6 +205,7 @@ input {
     transition: 1s;
 }
    
+<<<<<<< HEAD
 #botao-concluir:hover::before {
     filter: blur(20px);
 }
@@ -200,6 +270,19 @@ input {
 }
 
 
+=======
+button:hover::before {
+    filter: blur(20px);
+}
+   
+button:active {
+    background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
+}
+
+#check {
+    display: inline-block;
+}
+>>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
 
 
 
