@@ -1,15 +1,11 @@
 body {
     margin: 0;
-<<<<<<< HEAD
     padding: 5vh;
     box-sizing: border-box;
-=======
->>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
-<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -25,7 +21,10 @@ body {
     box-sizing: border-box;
     font-size: 15px;
     font-family: Helvetica, sans-serif;
-    color: #7e653d;  
+    color: #7e653d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
 }
 
 input, label {
@@ -40,8 +39,7 @@ input:focus {
 
 form {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
 }
 
 .full-box, .half-box, .third-box {
@@ -78,20 +76,17 @@ input {
     margin-bottom: -8px;
 }
 
-#estado{
-    font-size: 50pix;
-}
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-button {
+#botao-concluir {
     margin-top: 3em;
-    margin-left: -20em;
+    margin-left: 52em;
     text-decoration: none;
-    position: absolute;
+    position: relative;
     border: none;
     font-size: 15px;
     font-family: inherit;
@@ -106,7 +101,7 @@ button {
     z-index: 1;
 }
    
-button:hover {
+#botao-concluir:hover {
     animation: ani 8s linear infinite;
     border: none;
 }
@@ -121,9 +116,9 @@ button:hover {
     }
 }
    
-button:before {
+#botao-concluir:before {
     content: '';
-    position: absolute;
+    position: relative;
     top: -5px;
     left: -5px;
     right: -5px;
@@ -135,32 +130,70 @@ button:before {
     transition: 1s;
 }
    
-button:hover::before {
+#botao-concluir:hover::before {
     filter: blur(20px);
 }
    
-button:active {
+#botao-concluir:active {
+    background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
+}
+#botao-menu {
+    margin-top: 3em;
+    margin-left: -10em;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 15px;
+    font-family: inherit;
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
+    background-size: 300%;
+    border-radius: 20px;
+    z-index: 1;
+}
+   
+#botao-menu:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+}
+   
+@keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+}
+   
+#botao-menu:before {
+    content: '';
+    position: relative;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom:-5px;
+    z-index: -1;
+    background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+   
+#botao-menu:hover::before {
+    filter: blur(20px);
+}
+   
+#botao-menu:active {
     background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
 }
 
-#check {
-    display: inline-block;
-}
-=======
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-size: 15px;
-    font-family: Lato, sans-serif;
-}
 
-#container {
-    height: 550px;
-    width: 80%;
-    margin: 30px auto;
-    background: #f1ece5;
-    box-shadow:8px 8px 8px #9d7e4c;
-    border-radius: 20px;
-    padding: 1em;   
-}
 
->>>>>>> b4d3b1b2723e3552a5d297b688b1cddaa551a480
+
+
