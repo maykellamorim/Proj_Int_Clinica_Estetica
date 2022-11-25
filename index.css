@@ -1,16 +1,31 @@
 body {
     margin: 0;
     padding: 5vh;
+    box-sizing: border-box;
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 15px;
-    font-family: Lato, sans-serif;
-    color: #9d7e4c;
 }
+
+#main-container {
+    width: 40rem;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background: #f1ece5;
+    box-shadow:8px 8px 8px #9d7e4c;
+    border-radius: 20px;
+    padding: 25px; 
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    color: #7e653d;  
+}
+
 .logo{
     padding-top: 3em;
 }
@@ -31,17 +46,6 @@ section{
 .button-as-link a {
     text-decoration: none;
     color: white;
-}
-
-#container {
-    height: 500px;
-    width: 380px;
-    margin: 30px auto;
-    background: #f1ece5;
-    box-shadow:2px 2px 2px 2px #9d7e4c;
-    box-shadow:8px 8px 8px ;
-    border-radius: 20px;
-    justify-content: center;
 }
 
 button {

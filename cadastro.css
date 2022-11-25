@@ -24,6 +24,10 @@ body {
     color: #7e653d;  
 }
 
+#dataNasc{
+    font-size: 16px;
+}
+
 input, label {
     border: 0;
     display: block;
@@ -41,6 +45,7 @@ form {
 }
 
 select{
+    font-size: 17px;
     width: 475px;
     height: 45px;
 }
@@ -80,7 +85,7 @@ input {
 }
 
 #estado{
-    font-size: 50pix;
+    font-size: 50px;
 }
 .flex-container{
     display: flex;
@@ -89,22 +94,24 @@ input {
 }
 
 button {
-    margin-top: 3em;    
+    margin-top: 1rem;
+    margin-left: 0rem;
+    margin-bottom: -2rem;
     text-decoration: none;
     position: relative;
     border: none;
-    font-size: 15px;
+    font-size: 25px;
     font-family: inherit;
     color: #fff;
-    width: 9em;
-    height: 3em;
-    line-height: 2em;
+    width: 14rem;
+    height: 3rem;
+    line-height: 1em;
     text-align: center;
     background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
     background-size: 300%;
     border-radius: 20px;
     z-index: 1;
-}
+   }
    
 button:hover {
     animation: ani 8s linear infinite;
@@ -144,15 +151,19 @@ button:active {
 }
 
 #botao-concluir{
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 #botao-alterar{
-    margin-left: -4em;
+    margin-left: -4rem;
 }
 
 #botao-menu{
-    margin-left: -7em;
+    margin-left: -7rem;
+}
+
+#botao-pesquisar{
+    margin-left: -7rem;
 }
 
 

@@ -1,23 +1,29 @@
 body {
     margin: 0;
     padding: 5vh;
+    box-sizing: border-box;
     width: 100%;
     right: 100%;
     left: 100%;
     background-image: url(img/capa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 15px;
-    font-family: Lato, sans-serif;
 }
 
-#container {
-    height: 500px;
-    width: 380px;
-    margin: 30px auto;
+#main-container {
+    width: 40%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     background: #f1ece5;
     box-shadow:8px 8px 8px #9d7e4c;
-    border-radius: 20px;   
+    border-radius: 20px;
+    padding: 25px; 
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #7e653d;  
 }
 
 section{
@@ -25,8 +31,8 @@ section{
 }
 
 .button-cadastro {
-    margin-bottom: 5em;
-    padding: 5px 10px;
+    
+    padding: 2px 4px;
     border: nome;
 }
 
@@ -36,7 +42,8 @@ section{
 }
 
 .button-agendamento {
-    margin-bottom: 5em;
+    
+    padding: 2px 4px;
     border: nome;
 }
 
@@ -47,8 +54,8 @@ section{
 }
 
 .button-agenda {
-    margin-bottom: 5em;
-    padding: 5px 10px;
+    
+    padding: 2px 4px;
     border: nome;
 }
 
@@ -58,17 +65,17 @@ section{
 }
 
 button {
-    margin-top: 4em;
-    margin-left: -5em;
-    margin-bottom: 2em;
+    margin-top: -2rem;
+    margin-left: 0rem;
+    margin-bottom: -2rem;
     text-decoration: none;
-    position: absolute;
+    position: relative;
     border: none;
-    font-size: 15px;
+    font-size: 25px;
     font-family: inherit;
     color: #fff;
-    width: 12em;
-    height: 3em;
+    width: 20rem;
+    height: 5rem;
     line-height: 2em;
     text-align: center;
     background: linear-gradient(0deg, rgba(213,199,178,1) 0%, rgba(157,126,76,1) 100%);
