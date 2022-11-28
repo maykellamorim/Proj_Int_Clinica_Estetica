@@ -11,7 +11,8 @@ body {
 }
 
 #main-container {
-    width: 93%;
+    width: 90rem;
+    height: 55rem;
     margin-left: auto;
     margin-right: auto;
     background: #f1ece5;
@@ -27,42 +28,39 @@ body {
     justify-content: space-between;  
 }
 
+.form-check{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align-last: center; 
+}
+
 input, label {
     border: 0;
     display: block;
     width: 100%;
+    text-align: center;
 }
 
 input:focus {
     border-color: #7e653d;
 }
 
-#main-container, #data-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.full-box, .half-box, .third-box {
-    padding: 1.5%;
-}
-.full-box{
-    flex: 1 1 100%;
-    position: relative;
-}
-
 .half-box {
     flex: 1 1 45%;
     position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align-last: center; 
 }
 
 .third-box{
     flex: 1 1 30%;
     position: relative;
-}
-
-.spacing {
-    margin-right: 2.5%;    
+    flex-direction: row;
+    justify-content: space-between;
+    text-align-last: center; 
 }
 
 #botao-agendar{
@@ -71,6 +69,10 @@ input:focus {
 
 #botao-menu{
     margin-left: 25rem;
+}
+
+#datetime{
+    font-size: 20px;
 }
 
 button {
